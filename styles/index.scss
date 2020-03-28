@@ -1,0 +1,374 @@
+
+.screen {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 16px; 
+}
+
+$background-color: #5474FD; 
+$font-color: #FFFFFF;
+$hover-color: black; 
+
+
+/* header */
+
+.bhromaon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $font-color;
+
+&_background {
+    background-image: url("../img/imageOne.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+&_heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 260px; 
+    margin-bottom: 0;
+}
+
+&_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+}
+
+&_text-two {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    margin:0; 
+}
+
+&_text-two a {
+    text-decoration: none;
+}
+
+&_text-two:hover {
+    color: $hover-color; 
+}
+
+.fa-chevron-down:hover {
+    color: $hover-color; 
+}
+
+&_text-three {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+&_container {
+    display: flex;
+    justify-content: center;
+}
+
+&_form {
+    margin-top: 48px;
+    margin-bottom: 108px;
+    text-align: center;
+}
+
+&_button {
+    width: 150px;
+    height: 60px;
+    color: $font-color;
+    background: $background-color;
+}
+
+&_button:hover {
+   color: $hover-color;  
+}
+
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: $background-color;
+    color: $font-color;
+
+    &_links {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        font-size: 14px;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    &__link:hover {
+        color: $hover-color;  
+    }
+
+    &_text {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    &_links li {
+        list-style-type: none;
+    }
+
+    &_links a {
+        text-decoration: none;
+        color: $font-color;
+        padding-right: 22px;
+    }
+
+}
+
+/* main */
+
+.why {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $font-color;
+
+    &_column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_heading {
+        margin-top: 200px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    &_text {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+
+    &_text-two {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+
+    &_box {
+        width: 584px;
+        height: 363px;
+    }
+
+
+    &_button {
+        width: 228px;
+        height: 63px;
+        background: $background-color;
+        color: $font-color;
+        margin-top: 45px;
+        border: $background-color;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    &_button:hover {
+        color: $hover-color;
+    }
+
+    &_img-one {
+        margin-top: 110px;
+        width: 350px;
+        height: 220px;
+        margin-bottom: 100px;
+    }
+    
+    &_img-two {
+        width: 350px;
+        height: 220px;
+        margin-bottom: 110px;
+    }
+
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("../img/rectangleTwo.png");
+    background-size: cover;
+    padding-top: 78px;
+    padding-bottom: 97px;
+}
+
+.spain {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/rectangleFour.png");
+    background-size: cover;
+
+    &_box {
+        width: 543px;
+        height: 374px;
+        background: #232323;
+        opacity: 0.9;
+        color: $font-color;
+        margin-top: 220px;
+        margin-bottom: 99px;
+        margin-left: 200px;
+        padding: 30px;
+    }
+
+    &_button {
+        width: 228px;
+        height: 63px;
+        background: $background-color;
+        color: $font-color;
+        border: $background-color;
+    }
+
+    &_button:hover {
+       color: $hover-color; 
+    }
+}
+
+.madrid {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../img/rectangleFive.png");
+    background-size: cover;
+
+    &_box {
+        width: 543px;
+        height: 374px;
+        background: #232323;
+        opacity: 0.9;
+        color: $font-color;
+        margin-top: 220px;
+        margin-bottom: 99px;
+        margin-right: 200px;
+        padding: 30px;
+    }
+
+    &_button {
+        width: 228px;
+        height: 63px;
+        background: $background-color;
+        color: $font-color;
+    }
+
+}
+
+.tourist {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/rectangleSix.png");
+    background-size: cover;
+    color: $font-color;
+
+    &_box-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: $font-color;
+        margin-bottom: 199px;
+    }
+
+    &_heading {
+        margin-top: 128px;
+        font-size: 36px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &_text {
+        font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &_text-two {
+        font-size: 16px;
+    }
+
+    &_box {
+        width: 668px;
+        height: 287px;
+        background: #333333;
+    }
+
+    &_img {
+        width: 445px;
+        height: 284px;
+    }
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: $font-color;
+    background: #232323;
+
+    &_heading {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        margin-top: 122px;
+        margin-bottom: 0; 
+    }
+
+    &_text {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+
+    &_icons {
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 50px;
+    }
+
+    &_icons i {
+        padding-right: 12px;
+    }
+
+    &_icons i:hover {
+        color: $background-color; 
+    }
+}
+
+
+/* media */
+
+
+@media screen and (max-width: 800px) {
+    
+ }
+ 
+ @media screen and (max-width: 600px) {
+    
+  }
+ 
+  @media screen and(max-width: 300px) {
+   
+  }
